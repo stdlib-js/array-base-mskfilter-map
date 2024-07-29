@@ -44,7 +44,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-mskfilterMap = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-mskfilter-map@umd/browser.js' )
+mskfilterMap = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-mskfilter-map@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -56,7 +56,7 @@ var mskfilterMap = require( 'path/to/vendor/umd/array-base-mskfilter-map/index.j
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-mskfilter-map@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-mskfilter-map@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -175,7 +175,7 @@ The function supports the following parameters:
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs2@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-mskfilter-map@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-mskfilter-map@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
