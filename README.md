@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Apply a mask to a provided input array and return a new array after applying a mapping function.
+> Apply a mask and a callback function to a provided input array.
 
 <section class="installation">
 
@@ -65,7 +65,7 @@ var mskfilterMap = require( '@stdlib/array-base-mskfilter-map' );
 
 #### mskfilterMap( x, mask, clbk\[, thisArg] )
 
-Applies a mask to a provided input array and returns a new array after applying a mapping function.
+Returns a new array after applying a mask and a callback function to a provided input array.
 
 ```javascript
 function clbk( value ) {
@@ -83,10 +83,10 @@ The function supports the following parameters:
 
 -   **x**: input array.
 -   **mask**: mask array.
--   **clbk**: function to apply.
--   **thisArg**: applied function execution context (_optional_).
+-   **clbk**: callback to apply.
+-   **thisArg**: callback execution context (_optional_).
 
-To set the applied function's execution context, provide a `thisArg`.
+To set the execution context of the callback function, provide a `thisArg`.
 
 <!-- eslint-disable no-invalid-this -->
 
@@ -114,7 +114,7 @@ The function **always** returns a new "generic" array.
 
 #### mskfilterMap.assign( x, mask, out, stride, offset, clbk\[, thisArg] )
 
-Applies a mask and mapping function to a provided input array and assigns results to elements in a provided output array.
+Applies a mask and a callback function to a provided input array and assigns results to elements in a provided output array.
 
 ```javascript
 function clbk( value ) {
@@ -139,8 +139,8 @@ The function supports the following parameters:
 -   **out**: output array.
 -   **stride**: output array stride.
 -   **offset**: output array offset.
--   **clbk**: function to apply.
--   **thisArg**: applied function execution context (_optional_).
+-   **clbk**: callback function.
+-   **thisArg**: callback execution context (_optional_).
 
 </section>
 
@@ -221,7 +221,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -234,8 +234,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/array-base-mskfilter-map.svg
 [npm-url]: https://npmjs.org/package/@stdlib/array-base-mskfilter-map
 
-[test-image]: https://github.com/stdlib-js/array-base-mskfilter-map/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/array-base-mskfilter-map/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/array-base-mskfilter-map/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/array-base-mskfilter-map/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/array-base-mskfilter-map/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/array-base-mskfilter-map?branch=main
