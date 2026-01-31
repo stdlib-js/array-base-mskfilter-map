@@ -46,7 +46,7 @@
     "@stdlib/array-base-ones": "^0.2.2",
     "@stdlib/array-base-to-accessor-array": "^0.2.2",
     "@stdlib/array-base-zero-to": "^0.2.1",
-    "@stdlib/array-complex64": "^0.3.0",
+    "@stdlib/array-complex64": "^0.3.1",
     "@stdlib/array-int32": "^0.2.2",
     "@stdlib/array-ones": "^0.2.1",
     "@stdlib/array-zeros": "^0.2.2",
