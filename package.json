@@ -40,7 +40,8 @@
     "@stdlib/array-base-arraylike2object": "^0.2.1",
     "@stdlib/array-base-resolve-getter": "^0.2.2",
     "@stdlib/types": "^0.4.3",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2"
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/array-base-ones": "^0.2.2",
