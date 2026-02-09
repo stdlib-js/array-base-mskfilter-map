@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import mskfilterMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-mskfilter-map@deno/mod.js';
+import mskfilterMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-mskfilter-map@v0.1.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-mskfilter-map@deno/mod.js';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-mskfilter-map@v0.1.1-deno/mod.js';
 ```
 
 #### mskfilterMap( x, mask, clbk\[, thisArg] )
@@ -154,7 +154,7 @@ The function supports the following parameters:
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@deno/mod.js';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@deno/mod.js';
 import abs2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs2@deno/mod.js';
-import mskfilterMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-mskfilter-map@deno/mod.js';
+import mskfilterMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-mskfilter-map@v0.1.1-deno/mod.js';
 
 // Generate a linearly spaced array:
 var x = zeroTo( 20 );
